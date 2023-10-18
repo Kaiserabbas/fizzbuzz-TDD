@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'solver'  # Require the solution file
+require_relative 'solver' # Require the solution file
 
 describe Solver do
   let(:solver) { Solver.new }
